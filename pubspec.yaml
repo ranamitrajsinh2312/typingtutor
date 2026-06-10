@@ -1,0 +1,112 @@
+name: typingtutor
+description: "A comprehensive typing tutor app to improve keyboard skills and typing speed. Features multiple practice modes, real-time statistics, and adaptive learning."
+
+# Prevent accidental publishing to pub.dev
+publish_to: 'none'
+
+# App version and build number
+# Version format: MAJOR.MINOR.PATCH+BUILD_NUMBER
+version: 1.2.0+2
+
+environment:
+  sdk: ^3.7.0
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+
+  # Core Utilities
+  characters: ^1.3.0                     # Unicode grapheme cluster handling
+
+  # UI & Animation Packages
+  flutter_svg: ^2.0.7                    # SVG support for vector graphics
+  lottie: ^3.3.1                         # Lottie animations
+  flutter_animate: ^4.2.0                # Advanced animations
+  animated_text_kit: ^4.2.2              # Text animations
+  dotted_border: ^2.0.0+3                # Dotted border widgets
+  google_fonts: ^6.2.1
+                  # Google Fonts integration
+  cupertino_icons: ^1.0.8                # iOS-style icons
+  get: ^4.7.2
+
+  # Responsive Design
+  screen_breakpoints:                     # Screen breakpoint utilities
+  flutter_screenutil :
+  # Data Persistence & Storage
+  sqflite: ^2.3.0                        # SQLite database
+  path_provider: ^2.1.1                  # File system paths
+  shared_preferences:                     # Key-value storage
+
+  # External Services
+  url_launcher: ^6.1.10                  # Launch URLs and external apps
+  audioplayers: ^6.5.0                   # Audio playback support
+
+  # Monetization & Analytics
+  google_mobile_ads: ^3.0.0              # Google Mobile Ads
+  aswdc_admob: ^1.0.5                    # ASWDC AdMob utilities
+  aswdc_flutter_pub: ^1.0.21             # ASWDC Flutter utilities
+  provider: ^6.1.5+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/devloper_screen_images/
+    - assets/keybord_image/
+    - assets/sound/
+    - assets/splash_screen/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/to/resolution-aware-images
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/to/asset-from-package
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package

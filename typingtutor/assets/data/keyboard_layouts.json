@@ -1,0 +1,110 @@
+{
+  "keyboard_layouts": {
+    "en": {
+      "languageName": "English",
+      "row1": ["TAB", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "[", "]", "\\"],
+      "row2": ["CAPS", "A", "S", "D", "F", "G", "H", "J", "K", "L", ";", "'", "ENTER"],
+      "row3": ["SHIFT", "Z", "X", "C", "V", "B", "N", "M", ",", ".", "/", "SHIFT"],
+      "row4": ["SPACE"],
+      "shiftRow1": ["TAB", "Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P", "{", "}", "|"],
+      "shiftRow2": ["CAPS", "A", "S", "D", "F", "G", "H", "J", "K", "L", ":", "\"", "ENTER"],
+      "shiftRow3": ["SHIFT", "Z", "X", "C", "V", "B", "N", "M", "<", ">", "?", "SHIFT"]
+    },
+    "en_simple": {
+      "languageName": "English (Simplified)",
+      "row1": ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p"],
+      "row2": ["a", "s", "d", "f", "g", "h", "j", "k", "l"],
+      "row3": ["z", "x", "c", "v", "b", "n", "m"],
+      "row4": ["SPACE"],
+      "shiftRow1": ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
+      "shiftRow2": ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
+      "shiftRow3": ["Z", "X", "C", "V", "B", "N", "M"]
+    },
+    "hi": {
+      "languageName": "हिंदी (Hindi)",
+      "description": "Devanagari Inscript Layout",
+      "row1": ["ौ", "ै", "ा", "ी", "ू", "ब", "ह", "ग", "द", "ज", "ड", "़", "ॉ"],
+      "row2": ["ो", "े", "्", "ि", "ु", "प", "र", "क", "त", "च", "ट", "ं"],
+      "row3": ["ॅ", "ं", "म", "न", "व", "ल", "स", ",", ".", "य"],
+      "row4": ["SPACE"],
+      "shiftRow1": ["औ", "ऐ", "आ", "ई", "ऊ", "भ", "ङ", "घ", "ध", "झ", "ढ", "ञ", "ऑ"],
+      "shiftRow2": ["ओ", "ए", "अ", "इ", "उ", "फ", "ऱ", "ख", "थ", "छ", "ठ", "ँ"],
+      "shiftRow3": ["ऍ", "ः", "ष", "श", "ण", "ळ", "ऽ", "श्र", "।", "ऋ"],
+      "matras": ["ा", "ि", "ी", "ु", "ू", "े", "ै", "ो", "ौ", "ं", "ः", "्", "ँ", "ॅ", "ॉ"],
+      "conjuncts": ["क्ष", "त्र", "ज्ञ", "श्र", "द्य", "द्ध", "द्व", "क्र", "प्र", "भ्र", "श्च", "ष्ट", "ष्ठ", "ड्ड", "ट्ट", "ण्ड", "ण्ढ", "न्न", "ल्ल", "त्त"]
+    },
+    "hi_practice": {
+      "languageName": "हिंदी (Practice Mode)",
+      "description": "Simplified Hindi Layout for Practice",
+      "row1_vowels": ["अ", "आ", "इ", "ई", "उ", "ऊ", "ए", "ऐ", "ओ", "औ"],
+      "row2_consonants": ["क", "ख", "ग", "घ", "ङ", "च", "छ", "ज", "झ", "ञ"],
+      "row3_consonants": ["ट", "ठ", "ड", "ढ", "ण", "त", "थ", "द", "ध", "न"],
+      "row4_consonants": ["प", "फ", "ब", "भ", "म", "य", "र", "ल", "व", "श"],
+      "row5_extras": ["ष", "स", "ह", "ा", "ि", "ी", "ु", "ू", "्", "SPACE"],
+      "matras": ["ा", "ि", "ी", "ु", "ू", "े", "ै", "ो", "ौ", "ं", "ः", "्", "ँ"]
+    },
+    "gu": {
+      "languageName": "ગુજરાતી (Gujarati)",
+      "description": "Gujarati Inscript Layout",
+      "row1": ["ૌ", "ૈ", "ા", "ી", "ૂ", "બ", "હ", "ગ", "દ", "જ", "ડ", "઼", "ૉ"],
+      "row2": ["ો", "ે", "્", "િ", "ુ", "પ", "ર", "ક", "ત", "ચ", "ટ", "ં"],
+      "row3": ["ૅ", "ઃ", "મ", "ન", "વ", "લ", "સ", ",", ".", "ય"],
+      "row4": ["SPACE"],
+      "shiftRow1": ["ઔ", "ઐ", "આ", "ઈ", "ઊ", "ભ", "ઙ", "ઘ", "ધ", "ઝ", "ઢ", "ઞ", "ઑ"],
+      "shiftRow2": ["ઓ", "એ", "અ", "ઇ", "ઉ", "ફ", "ર", "ખ", "થ", "છ", "ઠ", "ઁ"],
+      "shiftRow3": ["ઍ", ":", "ષ", "શ", "ણ", "ળ", "ઽ", "શ્ર", "।", "ઋ"],
+      "matras": ["ા", "િ", "ી", "ુ", "ૂ", "ે", "ૈ", "ો", "ૌ", "ં", "ઃ", "્", "ઁ", "ૅ", "ૉ"],
+      "conjuncts": ["ક્ષ", "ત્ર", "જ્ઞ", "શ્ર", "દ્ય", "દ્ધ", "દ્વ", "ક્ર", "પ્ર", "ભ્ર", "શ્ચ", "ષ્ટ", "ષ્ઠ", "ડ્ડ", "ટ્ટ", "ણ્ડ", "ણ્ઢ", "ન્ન", "લ્લ", "ત્ત"]
+    },
+    "gu_practice": {
+      "languageName": "ગુજરાતી (Practice Mode)",
+      "description": "Simplified Gujarati Layout for Practice",
+      "row1_vowels": ["અ", "આ", "ઇ", "ઈ", "ઉ", "ઊ", "એ", "ઐ", "ઓ", "ઔ"],
+      "row2_consonants": ["ક", "ખ", "ગ", "ઘ", "ઙ", "ચ", "છ", "જ", "ઝ", "ઞ"],
+      "row3_consonants": ["ટ", "ઠ", "ડ", "ઢ", "ણ", "ત", "થ", "દ", "ધ", "ન"],
+      "row4_consonants": ["પ", "ફ", "બ", "ભ", "મ", "ય", "ર", "લ", "વ", "શ"],
+      "row5_extras": ["ષ", "સ", "હ", "ા", "િ", "ી", "ુ", "ૂ", "્", "SPACE"],
+      "matras": ["ા", "િ", "ી", "ુ", "ૂ", "ે", "ૈ", "ો", "ૌ", "ં", "ઃ", "્", "ઁ"]
+    }
+  },
+  "supported_languages": [
+    {
+      "code": "en",
+      "name": "English",
+      "nativeName": "English",
+      "flagEmoji": "🇺🇸"
+    },
+    {
+      "code": "hi",
+      "name": "Hindi",
+      "nativeName": "हिंदी",
+      "flagEmoji": "🇮🇳"
+    },
+    {
+      "code": "gu",
+      "name": "Gujarati",
+      "nativeName": "ગુજરાતી",
+      "flagEmoji": "🇮🇳"
+    }
+  ],
+  "typing_content_api_format": {
+    "description": "Expected format for fetching typing content from API",
+    "request": {
+      "method": "GET",
+      "url": "https://your-api.com/typing-content?lang={lang}&type={type}&count={count}",
+      "params": {
+        "lang": "hin | guj | eng",
+        "type": "word | sentence | paragraph",
+        "count": "number of items to fetch"
+      }
+    },
+    "response": {
+      "results": [
+        {
+          "text": "मुझे पढ़ना पसंद है।",
+          "lang": "hin"
+        }
+      ]
+    }
+  }
+}
